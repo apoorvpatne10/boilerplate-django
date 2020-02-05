@@ -2,7 +2,9 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>An intersting title</title>
+        <title>
+            {% block title %} An intersting title {% endblock %}
+        </title>
     </head>
     <body>
         {% block body %}
